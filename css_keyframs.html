@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          div{
+            width: 100px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: aqua;
+            animation-name: animate--div;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 0.5s;
+            animation-timing-function: ease-in;
+
+          }
+          @keyframes animate--div{
+            0%{
+                    background-color: blue;
+                    transform: translateuY(100px);
+          }
+          100%{
+            background-color: pink;
+                    transform: translateX(1000px);
+          }
+     }        
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
